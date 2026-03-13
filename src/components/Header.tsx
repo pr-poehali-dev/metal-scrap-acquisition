@@ -21,7 +21,7 @@ const Header = () => {
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
             <Icon name="Flame" size={18} className="text-white" />
           </div>
-          <span className="font-heading font-bold text-lg tracking-tight">МеталлПром</span>
+          <span className="font-heading font-bold text-lg tracking-tight">ВТРРЕСУРС</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -37,8 +37,8 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="tel:+78001234567" className="text-sm font-semibold">
-            8 (800) 123-45-67
+          <a href="tel:+79139132558" className="text-sm font-semibold">
+            +7 (913) 913-25-58
           </a>
           <Button size="sm" asChild>
             <a href="#calculator">Рассчитать</a>
@@ -66,8 +66,8 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
-            <a href="tel:+78001234567" className="text-sm font-semibold text-primary pt-2">
-              8 (800) 123-45-67
+            <a href="tel:+79139132558" className="text-sm font-semibold text-primary pt-2">
+              +7 (913) 913-25-58
             </a>
           </nav>
         </div>

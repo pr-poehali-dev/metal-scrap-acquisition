@@ -5,22 +5,22 @@ const contacts = [
   {
     icon: "Phone" as const,
     label: "Телефон",
-    value: "8 (800) 123-45-67",
-    href: "tel:+78001234567",
-    sub: "Бесплатно по России",
+    value: "+7 (913) 913-25-58",
+    href: "tel:+79139132558",
+    sub: "Звонки принимаем ежедневно",
   },
   {
-    icon: "Mail" as const,
-    label: "Почта",
-    value: "info@metallprom.ru",
-    href: "mailto:info@metallprom.ru",
-    sub: "Ответим в течение часа",
+    icon: "Building2" as const,
+    label: "Реквизиты",
+    value: "ООО «ВТРРЕСУРС»",
+    href: "#",
+    sub: "ИНН 5506235052",
   },
   {
     icon: "MapPin" as const,
     label: "Адрес",
-    value: "г. Москва, ул. Промышленная, д. 15",
-    href: "#",
+    value: "Омск, 2-я Барнаульская, 105",
+    href: "https://maps.yandex.ru/?text=Омск+2-я+Барнаульская+105",
     sub: "Пн-Сб: 8:00 — 20:00",
   },
 ];
@@ -76,7 +76,7 @@ const ContactsSection = () => {
             </p>
           </div>
           <Button size="lg" className="text-base px-8 shrink-0" asChild>
-            <a href="tel:+78001234567">
+            <a href="tel:+79139132558">
               <Icon name="Phone" size={18} className="mr-2" />
               Позвонить
             </a>

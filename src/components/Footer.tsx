@@ -10,7 +10,7 @@ const Footer = () => {
               <Icon name="Flame" size={18} className="text-white" />
             </div>
             <span className="font-heading font-bold text-lg text-white tracking-tight">
-              МеталлПром
+              ВТРРЕСУРС
             </span>
           </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
           </nav>
 
           <p className="text-sm text-white/30">
-            &copy; 2026 МеталлПром
+            &copy; 2026 ООО «ВТРРЕСУРС»
           </p>
         </div>
       </div>
